@@ -1,0 +1,108 @@
+.div1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: red;
+  animation-name: red;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+  position: absolute;
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  border-radius:100%;
+  background-color: blue;
+  animation-name: blue;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@keyframes red {
+  0% {left: 50px; top: 75px;}
+  25% {left: 100px; top: 150px;}
+  50% {left: 50px; top: 225px;}
+  75% {left: 100px; top: 300px;}
+  100% {left: 50px; top: 75px;}
+}
+
+@keyframes blue {
+  0% {left: 100px; top: 75px;}
+  25% {left: 50px; top: 150px;}
+  50% {left: 100px; top: 225px;}
+  75% {left: 50px; top: 300px;}
+  100% {left: 100px; top: 75px;}
+}
+.divBox1{
+  width:100px;
+  height:100px;
+  top:100px;
+  left:100px;
+  border:25px solid yellow;
+  position: relative;
+}
+.divBox2{
+  width:100px;
+  height:100px;
+  top:150px;
+  left:150px;
+  border:25px solid cyan;
+}
+.header {
+  width: 100%;
+  height: 10%;
+  background-color: goldenrod;
+  overflow: auto;
+}
+
+.footer {
+  width: 100%;
+  height: 10%;
+  background-color: green;
+  overflow: auto;
+}
+
+.float-left {
+  width: 50%;
+  height: 80%;
+  background-color: blue;
+  float: left;
+}
+
+.float-right {
+  width:50%;
+  height: 80%;
+  background-color: red;
+  float: right;
+}
+
+.wrapper {
+  width: 100%;
+  height: 500px;
+  border: 5px transparent white;
+}
+footer {
+  position: sticky;
+  background-color: pink;
+  text-align: center;
+  bottom: 0;
+}
+.img-ed {
+  background-image: url("../images.jpeg/ed.jpeg");
+  width: 321px;
+  height: 321px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.full-head {
+  position: absolute;
+  left: 35px;
+  top: -30px;
+  width: 245px;
+  height: 245px;
+  transform: rotate(10deg);
+
+}
